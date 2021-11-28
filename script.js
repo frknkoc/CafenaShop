@@ -4,6 +4,7 @@ document.querySelector('#login-btn').onclick = () =>{
     loginForm.classList.toggle('active');
     navbar.classList.remove('active');
     cartItem.classList.remove('active');
+    searchForm.classList.remove('active');
 }
 
 

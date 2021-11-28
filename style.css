@@ -75,7 +75,7 @@ section{
 }
 
 .header{
-    background: var(--bg);
+    background: rgba(0, 0, 0, 0.4);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -84,6 +84,7 @@ section{
     position: fixed;
     top:0; left: 0; right: 0;
     z-index: 1000;
+    box-shadow: 0 0px 20px gray;
 }
 
 .header .logo{
@@ -303,7 +304,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(images/home-img.jpeg) no-repeat;
+    background:url(images/coffee-beans-with-props-making-coffee.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -577,6 +578,7 @@ section{
     height: 25rem;
     overflow:hidden;
     width: 100%;
+    border-radius: 25px;
 }
 
 .blogs .box-container .box .image img{
@@ -757,14 +759,16 @@ section{
     }
 
     .footer{
-        padding: 35px 0;
+        padding: 30px 0;
     }
 
     .footer-col{
         width: 50%;
     }
 
-
+    .footer-col ul li:not(:last-child) {
+        margin-bottom: 7px;
+    }
 }
 
 @media (max-width:450px){
@@ -779,12 +783,16 @@ section{
 
 
     .footer{
-        padding: 10px 0;
+        padding: 15px 0;
     }
 
 
     .footer-col{
         width: 100%;
+    }
+
+    .footer-col ul li:not(:last-child) {
+        margin-bottom: 4px;
     }
 
 
