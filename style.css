@@ -75,7 +75,7 @@ section{
 }
 
 .header{
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.8);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -84,7 +84,7 @@ section{
     position: fixed;
     top:0; left: 0; right: 0;
     z-index: 1000;
-    box-shadow: 0 0px 20px gray;
+    box-shadow: 0 0px 20px rgb(107, 107, 107);
 }
 
 .header .logo{
@@ -300,7 +300,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(images/coffee-beans-with-props-making-coffee.jpg) no-repeat;
+    background:url(images/coffee.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
